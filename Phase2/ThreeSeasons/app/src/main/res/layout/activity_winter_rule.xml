@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winter_rule"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/winter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/winter"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/winter_goal"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="1dp"
+        android:background="#87D4EC"
+        android:breakStrategy="high_quality"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="3sp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="vertical|none"
+        android:text="@string/winter_goal"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/understood"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#36795C"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/understood"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

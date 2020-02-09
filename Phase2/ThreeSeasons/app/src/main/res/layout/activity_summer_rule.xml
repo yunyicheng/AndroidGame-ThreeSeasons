@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summer_rule"
+    android:orientation="vertical">
+    android:background="@drawable/summer_rule"
+
+    <TextView
+        android:id="@+id/summer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/summer"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/summer_goal"
+        android:layout_width="249dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:background="#C862AD6D"
+        android:breakStrategy="high_quality"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/summer_goal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/understood"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="50dp"
+        android:background="#C862AD6D"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/understood"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

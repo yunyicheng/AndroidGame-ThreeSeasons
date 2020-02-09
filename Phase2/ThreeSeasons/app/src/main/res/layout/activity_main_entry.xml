@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/main_entry_background"
+    android:orientation="vertical"
+    android:soundEffectsEnabled="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="?attr/dialogPreferredPadding"
+        android:layout_marginHorizontal="@android:dimen/notification_large_icon_height"
+        android:layout_marginVertical="@android:dimen/notification_large_icon_width"
+        android:fontFamily="cursive"
+        android:keepScreenOn="true"
+        android:text="@string/three_seasons"
+        android:textColor="#000000"
+        android:textSize="70sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/begin_adventure"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/begin_adventure"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F7DBB3"
+        android:textSize="45sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="590dp"
+        android:layout_marginTop="-350dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/three_seasons_zh" />
+</LinearLayout>
+

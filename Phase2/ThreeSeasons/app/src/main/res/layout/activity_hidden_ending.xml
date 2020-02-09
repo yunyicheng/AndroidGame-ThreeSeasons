@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spring_hidden"
+    tools:context=".maingame.HiddenEndingActivity">
+
+    <TextView
+        android:id="@+id/hiddenEnding"
+        android:layout_width="665dp"
+        android:layout_height="267dp"
+        android:background="#85FFFFFF"
+        android:fontFamily="cursive"
+        android:text="You have attained the power of Spring Master and felt ultimately powerful, with the jade pendants you collected are heating. However, you found that the three Season Masters were suspicious. The explanation they showed was not persuasive and it is possible that they murdered the old Spring Master. \n Suddenly, the remaining jade pendants broke and a powerful consciousness rushed into your brain..."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FC0F0000"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <TextView
+        android:id="@+id/hiddenEnding_title"
+        android:layout_width="520dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:background="#85FFFFFF"
+        android:fontFamily="cursive"
+        android:text="Spring Master lives forever ..."
+        android:textAlignment="center"
+        android:textColor="#9E2703"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="Main Menu"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

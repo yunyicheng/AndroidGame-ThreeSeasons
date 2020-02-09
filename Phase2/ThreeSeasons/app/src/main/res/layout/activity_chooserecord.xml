@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".maingame.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/localRecordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_gravity="center"
+        android:background="@drawable/main_entry_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/threeSeasons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:onClick="onClick"
+            android:text="@string/threeSeasons"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/summer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:onClick="onClick"
+            android:text="@string/summer"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/autumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:onClick="onClick"
+            android:text="@string/autumn"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/winter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:onClick="onClick"
+            android:text="@string/winter"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"/>
+
+    </LinearLayout>
+</LinearLayout>

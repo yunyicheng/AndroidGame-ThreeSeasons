@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/winter_background"
+    android:orientation="vertical"
+    tools:context=".maingame.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/step1_1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="150dp"
+        android:contentDescription="@string/description"
+        android:elevation="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/picture1_1" />
+
+    <ImageButton
+        android:id="@+id/blank1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="325dp"
+        android:contentDescription="@string/description"
+        android:elevation="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/blank1" />
+
+    <ImageButton
+        android:id="@+id/blank2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="175dp"
+        android:contentDescription="@string/description"
+        android:elevation="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/blank2" />
+
+    <ImageButton
+        android:id="@+id/step1_2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="175dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/description"
+        android:elevation="1dp"
+        android:focusable="auto"
+        android:scaleType="fitXY"
+        android:src="@drawable/picture1_2" />
+
+    <ImageButton
+        android:id="@+id/step2_1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture2_1" />
+
+    <ImageButton
+        android:id="@+id/step2_2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:scaleType="fitXY"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture2_2" />
+
+    <ImageButton
+        android:id="@+id/step3_1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:scaleType="fitXY"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture3_1" />
+
+    <ImageButton
+        android:id="@+id/step3_2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture3_2" />
+
+    <ImageButton
+        android:id="@+id/step4_1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture4_1" />
+
+    <ImageButton
+        android:id="@+id/step4_2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture4_2" />
+
+    <ImageButton
+        android:id="@+id/step5_1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:scaleType="fitXY"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:src="@drawable/picture5_1" />
+
+    <ImageButton
+        android:id="@+id/blank3"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:scaleType="fitXY"
+        android:src="@drawable/blank3" />
+
+    <ImageButton
+        android:id="@+id/blank4"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:scaleType="fitXY"
+        android:src="@drawable/blank4" />
+
+    <ImageButton
+        android:id="@+id/blank5"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="0dp"
+        android:alpha="0"
+        android:contentDescription="@string/description"
+        android:scaleType="fitXY"
+        android:src="@drawable/blank5" />
+
+    <TextView
+        android:id="@+id/numMove2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="cursive"
+        android:text="@string/numMove2"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numMove_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="620dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="cursive"
+        android:text="@string/score2"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="620dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="cursive"
+        android:text="@string/time"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="620dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="cursive"
+        android:text="@string/jade"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jade_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="620dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/jade_pendant"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="260dp"
+        android:alpha="0"
+        android:background="@drawable/jade_pendant"
+        android:contentDescription="@string/description"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+</RelativeLayout>
+

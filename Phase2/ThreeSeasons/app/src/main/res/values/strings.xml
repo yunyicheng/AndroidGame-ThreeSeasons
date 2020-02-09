@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">game</string>
+
+    <string name="sign_up">Create your account</string>
+    <string name="new_username">UserName</string>
+    <string name="new_password">Password</string>
+    <string name="reenter_password">Confirm Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="Sign_In">Sign in instead</string>
+    <string name="Welcome">Welcome Back</string>
+    <string name="SignIn">Sign in</string>
+    <string name="SignUp">Sign up</string>
+    <string name="quickstart">QUICK START</string>
+    <string name="login">Sign In</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="sing_in">SIGN IN</string>
+    <string name="create_new">New to here?</string>
+    <string name="newGame">New Game</string>
+    <string name="viewLocalRecords">View Local Records</string>
+    <string name="knight">Knight Mode</string>
+    <string name="elf">ELF MODE</string>
+    <string name="next_level">NEXT LEVEL</string>
+    <string name="next_level3">NEXT LEVEL</string>
+    <string name="game_over">CONGRATS!</string>
+    <string name="statics">View Statics</string>
+    <string name="back2">BACK</string>
+    <string name="back1">BACK</string>
+    <string name="main_summary">Game Summary</string>
+    <string name="total_score">Total Score</string>
+    <string name="average_time">Average Time</string>
+    <string name="total_time">Total Time(s)</string>
+    <string name="Try_Again">Try Again</string>
+    <string name="numFailure">FAILURES:</string>
+    <string name="final_time">TOTAL TIME:</string>
+    <string name="final_score">FINAL SCORE:</string>
+    <string name="score">FINAL SCORE:</string>
+    <string name="final_time1">FINAL TIME:</string>
+    <string name="numMove">MOVES:</string>
+    <string name="statics1">VIEW STATISTICS</string>
+    <string name="numMove2">MOVES:</string>
+    <string name="score2">SCORE:</string>
+    <string name="time">TIME:</string>
+    <string name="score_game2">Score:</string>
+    <string name="failures">Failures:</string>
+    <string name="score_game1">FINAL SCORE:</string>
+    <string name="duration">TOTAL TIME:</string>
+    <string name="distance">DISTANCE:</string>
+    <string name="error">Error occurred when loading user information</string>
+    <string name="username_error">Username does not exist</string>
+    <string name="pw_error">Wrong Password</string>
+    <string name="successful_signup">Successfully Signed Up!</string>
+    <string name="empty_username">Username Cannot Be Empty</string>
+    <string name="contain_space">Username Should Not Contain Space</string>
+    <string name="username_exist">Username Exists!</string>
+    <string name="match_pw">Passwords Do Not Match!</string>
+    <string name="str_distance">Distance:</string>
+    <string name="str_score">Score:</string>
+    <string name="str_red">RED</string>
+    <string name="description"> IMAGE BUTTON </string>
+    <string name="begin_adventure">Begin Adventure</string>
+    <string name="three_seasons">Three Seasons</string>
+    <string name="num_move">MOVES</string>
+    <string name="background_music">Background Music</string>
+    <string name="maxStreak">Max Streak:</string>
+    <string name="streak">Streaks:</string>
+    <string name="jade">JADE:</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="english">EN</string>
+    <string name="change_language">Change Language 语言</string>
+    <string name="chinese">ZH</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="viewUserRecords">View Your Own Records</string>
+    <string name="threeSeasons">Three Seasons</string>
+    <string name="summer">Summer</string>
+    <string name="autumn">Autumn</string>
+    <string name="winter">Winter</string>
+    <string name="i_am_ready">I am ready</string>
+    <string name="jadeSummary">Jade</string>
+    <string name="scoreSummary">Score</string>
+    <string name="summerSummary">Summer</string>
+    <string name="autumnSummary">Autumn</string>
+    <string name="winterSummary">Winter</string>
+    <string name="totalSummary">Three Seasons</string>
+    <string name="summer_goal">GOAL:
+        Click to control warrior to jump over fire balls.
+        Jump to the jade pendants whenever they appear to collect.</string>
+    <string name="autumn_goal">GOAL:
+        Click the leaf whose colour is the same as that of the command text
+        when command is in round frame;
+        click the leaf whose colour is the same as the colour which the command means
+        when the command is in square frame.
+        Click the jade pendants whenever they appear to collect.</string>
+    <string name="winter_goal">GOAL:
+        Solve the puzzle in shortest time and fewest moves to reveal the story of the warrior.
+        Click the jade pendants whenever they appear to collect.</string>
+    <string name="understood">UNDERSTOOD</string>
+    <string name="switchAccount">Switch Account</string>
+    <string name="finalMaxStreak">Max Streak</string>
+    <string name="numJade">Jade</string>
+    <string name="currentScore">Current Score</string>
+    <string name="currentJade">Current Jade</string>
+    <string name="exchange">1 jade for 10 score</string>
+    <string name="jade_error">You have no jade!</string>
+    <string name="manMode">Man Mode</string>
+    <string name="shadowMode">Shadow Mode</string>
+    <string name="unfortunately_even_you_have_struggled_your_best_you_failed_the_test_of_season_valley_n_nto_save_your_home_get_more_prepared_and_come_back_again">Unfortunately, even you have struggled your best, you failed the test of Season Valley.  To save your home, get more prepared and come back again.</string>
+    <string name="failure">FAILURE</string>
+</resources>

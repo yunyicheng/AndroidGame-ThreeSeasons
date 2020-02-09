@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:visibility="visible"
+    tools:context=".maingame.MainActivity">
+
+    <TextView
+        android:id="@+id/mainsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="230dp"
+        android:text="@string/main_summary"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/jadeSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="220dp"
+        android:text="@string/jadeSummary"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/scoreSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="420dp"
+        android:text="@string/scoreSummary"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/summerSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/summerSummary"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/summerJade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="220dp"
+        android:text="SJ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/summerScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="420dp"
+        android:text="SS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/autumnJade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="220dp"
+        android:text="AJ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/autumnScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="420dp"
+        android:text="AS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/winterJade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="220dp"
+        android:text="WJ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/winterScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="420dp"
+        android:text="WS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/threeSeasonsJade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="220dp"
+        android:text="TSJ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/threeSeasonsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="420dp"
+        android:text="TSS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/autumnSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/autumnSummary"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/winterSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/winterSummary"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/totalSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/totalSummary"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <Button
+        android:id="@+id/back_to_menu"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/main_menu"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exchangeForScore"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="View Jade"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ending"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="29dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="Ending"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

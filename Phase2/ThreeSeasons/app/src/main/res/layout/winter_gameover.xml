@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_game_background"
+    tools:context=".maingame.MainActivity">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:text="@string/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/score_sta"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="230dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/finaltime1"
+        android:text="@string/final_time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/finaltime2_sta"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="230dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/numMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/num_move"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/numMove_sta"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="230dp"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive"/>
+
+    <Button
+        android:id="@+id/statics"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="470dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/statics1"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

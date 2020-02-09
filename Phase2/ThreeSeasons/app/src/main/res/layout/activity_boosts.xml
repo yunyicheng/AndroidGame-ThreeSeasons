@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_game_background"
+    android:visibility="visible"
+    tools:context=".maingame.MainActivity">
+
+    <TextView
+        android:id="@+id/currentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="80dp"
+        android:text="@string/currentScore"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/currentJade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="400dp"
+        android:text="@string/currentJade"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/currentScoreSta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="140dp"
+        android:text="a"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/currentJadeSta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="450dp"
+        android:text="b"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:id="@+id/highestScore"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exchange"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="casual"
+        android:onClick="onClick"
+        android:text="@string/exchange"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back_to_menu2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/main_menu"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

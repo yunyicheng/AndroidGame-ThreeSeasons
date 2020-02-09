@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">game</string>
+
+    <string name="sign_up">新建账号</string>
+    <string name="new_username">用户名</string>
+    <string name="new_password">密码</string>
+    <string name="reenter_password">确认密码</string>
+    <string name="create_account">创建账号</string>
+    <string name="Sign_In">已有账号？</string>
+    <string name="Welcome">欢迎回来</string>
+    <string name="SignIn">登录</string>
+    <string name="SignUp">注册</string>
+    <string name="quickstart">游客模式</string>
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="sing_in">登录</string>
+    <string name="create_new">注册</string>
+    <string name="newGame">开始游戏</string>
+    <string name="viewLocalRecords">查看本地记录</string>
+    <string name="knight">骑士模式</string>
+    <string name="elf">精灵模式</string>
+    <string name="next_level">下一关</string>
+    <string name="next_level3">下一关</string>
+    <string name="game_over">过关啦！</string>
+    <string name="statics">查看所有数据</string>
+    <string name="back2">返回</string>
+    <string name="back1">返回</string>
+    <string name="main_summary">得分情况</string>
+    <string name="total_score">总得分</string>
+    <string name="average_time">平均过关时间</string>
+    <string name="total_time">总用时间（秒）</string>
+    <string name="Try_Again">再玩一次</string>
+    <string name="numFailure">失败次数:</string>
+    <string name="final_time">用时:</string>
+    <string name="final_score">总成绩:</string>
+    <string name="score">总成绩:</string>
+    <string name="final_time1">用时:</string>
+    <string name="numMove">移动步数:</string>
+    <string name="statics1">查看总数据</string>
+    <string name="numMove2">移动数:</string>
+    <string name="score2">分数:</string>
+    <string name="time">用时:</string>
+    <string name="score_game2">分数:</string>
+    <string name="failures">失败:</string>
+    <string name="score_game1">分数:</string>
+    <string name="duration">时间:</string>
+    <string name="distance">距离:</string>
+    <string name="error">用户信息加载错误</string>
+    <string name="username_error">用户名不存在</string>
+    <string name="pw_error">密码错误</string>
+    <string name="successful_signup">注册成功!</string>
+    <string name="empty_username">用户名不能为空</string>
+    <string name="contain_space">用户名不能包含空格</string>
+    <string name="username_exist">用户名已存在!</string>
+    <string name="match_pw">密码不匹配!</string>
+    <string name="str_distance">距离:</string>
+    <string name="str_score">分数:</string>
+    <string name="str_red">红</string>
+    <string name="description"> 图片按钮 </string>
+    <string name="begin_adventure">踏上旅程</string>
+    <string name="three_seasons">threeSeasons</string>
+    <string name="num_move">步数</string>
+    <string name="background_music">背景音乐</string>
+    <string name="maxStreak">最大连击:</string>
+    <string name="streak">连击:</string>
+    <string name="jade">玉佩:</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="english">EN</string>
+    <string name="change_language">Change Language 语言</string>
+    <string name="chinese">ZH</string>
+    <string name="main_menu">返回主菜单</string>
+    <string name="viewUserRecords"> 查看个人记录</string>
+    <string name="threeSeasons">三季</string>
+    <string name="summer">夏</string>
+    <string name="autumn">秋</string>
+    <string name="winter">冬</string>
+    <string name="i_am_ready">准备好了</string>
+    <string name="jadeSummary">玉佩</string>
+    <string name="scoreSummary">分数</string>
+    <string name="summerSummary">夏</string>
+    <string name="autumnSummary">秋</string>
+    <string name="winterSummary">冬</string>
+    <string name="totalSummary">三季</string>
+    <string name="summer_goal">目标：
+    点击屏幕以操作侠客跳起躲避火球伤害。
+    当玉佩出现时，跳跃以收集玉佩。</string>
+    <string name="autumn_goal">目标：
+    当指令在圆框中时，点击与指令字体颜色相同的树叶；当指令在方框中时，点击与指令文字意义相同颜色的树叶。
+    当玉佩出现时，点击以收集玉佩。</string>
+    <string name="winter_goal">目标:
+    在最短时间内用最少步骤解开迷局以理解侠客的初心。
+    当玉佩出现时，点击以收集玉佩。</string>
+    <string name="understood">已阅</string>
+    <string name="switchAccount">切换账户</string>
+    <string name="finalMaxStreak">最大连击</string>
+    <string name="numJade">玉佩</string>
+    <string name="currentScore">当前分数</string>
+    <string name="currentJade">当前玉佩数</string>
+    <string name="exchange">一个玉佩换取十分</string>
+    <string name="jade_error">喔唷，玉佩用完啦!</string>
+    <string name="manMode">侠客</string>
+    <string name="shadowMode">影</string>
+    <string name="unfortunately_even_you_have_struggled_your_best_you_failed_the_test_of_season_valley_n_nto_save_your_home_get_more_prepared_and_come_back_again">Unfortunately, even you have struggled your best, you failed the test of Season Valley.  To save your home, get more prepared and come back again.</string>
+    <string name="failure">FAILURE</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autumn_rule"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/winter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/autumn"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/autumn_goal"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="420dp"
+        android:layout_marginTop="-20dp"
+        android:background="#A81313"
+        android:breakStrategy="high_quality"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="3sp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="vertical|none"
+        android:text="@string/autumn_goal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/understood"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#F18B2F"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/understood"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

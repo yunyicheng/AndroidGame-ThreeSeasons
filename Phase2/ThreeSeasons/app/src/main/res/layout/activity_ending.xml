@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/palace_background"
+    tools:context=".maingame.EndingActivity">
+
+    <Button
+        android:id="@+id/say_hello"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="Say Hello"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ask_spring"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="Ask about Spring"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ending"
+        android:layout_width="617dp"
+        android:layout_height="225dp"
+        android:background="#8AFFFFFF"
+        android:fontFamily="cursive"
+        android:text="After struggling surviving the test of Season Valley, you look up and see the glorious palace. The bunch of jades hanging on the waist exudes soft green light and vitality is flowing into your body.\n In the dim, you see three figures flying towards you from the palace."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F5050000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/ending_title"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="#9FFFFFFF"
+        android:fontFamily="cursive"
+        android:text="SUCCESS"
+        android:textColor="#F5000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

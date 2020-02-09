@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spring_inquire"
+    tools:context=".maingame.NewSpringAskActivity">
+
+    <TextView
+        android:id="@+id/ask_about_spring"
+        android:layout_width="624dp"
+        android:layout_height="269dp"
+        android:background="#651D461A"
+        android:fontFamily="cursive"
+        android:text="After you cast the doubts about the missing Spring, the three Season Masters sighed and explained the fact. They said that years ago, the Spring Master who controlled the greatest power wanted to destroy this land. They tried to stop and finally killed him. They had been waiting for a Spring candidate for years... Now you become the new Spring Master!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <TextView
+        android:id="@+id/success_title_ask"
+        android:layout_width="468dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="There must always be a Spring Master"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/next_ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

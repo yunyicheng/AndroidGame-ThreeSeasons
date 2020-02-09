@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/no_spring"
+    tools:context=".maingame.NoEndingActivity">
+
+    <TextView
+        android:id="@+id/failure"
+        android:layout_width="617dp"
+        android:layout_height="225dp"
+        android:background="#ADFFFFFF"
+        android:fontFamily="cursive"
+        android:text="@string/unfortunately_even_you_have_struggled_your_best_you_failed_the_test_of_season_valley_n_nto_save_your_home_get_more_prepared_and_come_back_again"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
+        android:onClick="onClick"
+        android:text="@string/Try_Again"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/failure_title"
+        android:layout_width="179dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/failure"
+        android:textAlignment="center"
+        android:textColor="#2E615C"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
