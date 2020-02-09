@@ -9,6 +9,7 @@ Before running this program, you need to:
     Open Tools –> SDK Manager. On the SDK Platforms tab, Select Android 9.0 (Pie) and click OK.
 
 ------------------------------------------GAME------------------------------------------------------
+
 BACKGROUND STORY
 
     This land used to have its glorious days when civilizations were prosperous. It is said that there
@@ -104,6 +105,7 @@ Enhanced Scoreboard
                          in each of the level or the best three of the game as a whole.
 
 Mysterious Token
+
     In this game, the mysterious token are jade pendants. They persist through all three levels and
     players may check how many they have got at the end of each level and trade for extra scores in
     the ratio of 1:10. However, the number of jade pendant determine whether the player will find
