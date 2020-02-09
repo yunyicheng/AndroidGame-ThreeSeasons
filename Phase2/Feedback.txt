@@ -1,0 +1,42 @@
+Dear group_0566
+
+This semester, we talked about MVP, the Model-View-Presenter architecture. It has many advantages, particularly when working with Android. As you can see from your project, your activity classes have methods that are specific to Android. If you encapsulate the rest of your code sufficiently, it is possible to port it to another platform simply by creating a new UI (for example, a website).
+
+Encapsulation can take on many forms. You can package your View classes together. You can ensure that your dependencies go one-way, towards the inner more abstract layers. You can incorporate SOLID principles as much as possible and design patterns where they make sense.
+Here is feedback that is specific to your project:
+
+You made good use of…
++ Consistent and clean code
++ A nicely detailed Readme file.
++ Project is easy to extend
++ Helper methods are used in classes like StepManager
++ Good Encapsulation and size of class was reasonable
++ Made good use of SQL as a database
++ Use inner clock to maintain the difficulty of the summer level.
++ Good commenting and javadoc throughout the code
++ Factory design patterns in the levels.
++ Provide bonus levels and hidden items.
++ Detailed and readable scoreboard at both local and person level
++ Provide options to choose characters
+
+The user sees…
++ Three games Summer, Autumn, Winter looks beautiful
++ impressive visual features
++ The games have a storyline and have options to choose a language
++ Statistics are well maintained
++ The user can see the description of each game
++ A settings page is also present from which the user can change the customized features like mode of the game
++ Creative use of Jade in order to get badges
+
+A good next step would be to…
++ To minimize type casting when creating obstacles and jade. There are ways to take advantage of object oriented design that will get rid of the need to type cast.
++ Use dependency injection instead of creating array list in the class where you use it, where this makes sense. This will make it easier to change your choice of data structure later
++ Try to avoid hardcoded values by storing them in class variables so that they can easily be changed.
++ Most of your classes need Javadoc, but your Javadoc for variables and methods is quite good!
++ Your View is directly saving files. The model does not know whether it has been saved. Instead, you should have the Use Cases layer control the saving process.
+
+We hope that you enjoyed working on this project and found it a useful learning experience.
+
+Cheers,
+The CSC207 Instructional Team
+
