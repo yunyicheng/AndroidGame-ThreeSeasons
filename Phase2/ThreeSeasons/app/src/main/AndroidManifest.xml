@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.threeseasons">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".maingame.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".maingame.MainMenuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.SignInActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.SignUpActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.NewGameActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".summer.SummerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".winter.WinterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".autumn.AutumnOverActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".summer.SummerGameOver"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".winter.WinterOverActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.MainGameOver"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".summer.CustomizationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.ScoreBoardActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".autumn.AutumnActivity"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".maingame.MusicService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".maingame.SettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.ChooseRecordActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.BackgroundStoryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".summer.SummerRuleActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".autumn.AutumnRuleActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".winter.WinterRuleActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.BoostsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.NoEndingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.EndingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.NewSpringHelloActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.NewSpringAskActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".maingame.HiddenEndingActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
