@@ -1,4 +1,4 @@
-# An Android Game Three Seasons
+# Android Game: Three Seasons
 -----------------------------------------SET UP-----------------------------------------------------
 
 Running this game will require Android Studio, which can be downloaded at
