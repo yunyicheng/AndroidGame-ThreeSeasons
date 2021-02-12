@@ -1,4 +1,4 @@
-# CSC207-Project Three Seasons
+# An Android Game Three Seasons
 -----------------------------------------SET UP-----------------------------------------------------
 
 Running this game will require Android Studio, which can be downloaded at
